@@ -578,6 +578,7 @@ textarea{
         display: block;
     }
     .nav-main {
+       
     ul{
         display: block;
         position: absolute;
@@ -592,7 +593,7 @@ textarea{
         
     }
     .show{
-        transform: translateX(-20px) ;
+        transform: translateX(-20px);
     }
     li{
         padding: 20px;
@@ -750,7 +751,7 @@ textarea{
         display: inline-block;
         justify-content: center;
         .social{
-            font-size: 15px;
+            font-size: 30px;
            justify-content: center;
         }
         .parrafo{
@@ -767,5 +768,18 @@ textarea{
         .h1-servicios{
             display: none;
         }
+    }
+
+    .contenedor-contacto{
+        background-image: none;
+        .login{
+            .fondo{
+                background-color: $crema;
+                h3{
+                    color: $verde;
+                }
+            }
+        }
+    
     }
 }

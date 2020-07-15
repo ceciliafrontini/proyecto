@@ -615,7 +615,7 @@ textarea {
     display: inline-block;
     justify-content: center; }
     footer .social {
-      font-size: 15px;
+      font-size: 30px;
       justify-content: center; }
     footer .parrafo {
       font-size: 12px;
@@ -624,4 +624,10 @@ textarea {
     display: inline-block;
     margin: auto; }
   .contenido-s .h1-servicios {
-    display: none; } }
+    display: none; }
+  .contenedor-contacto {
+    background-image: none; }
+    .contenedor-contacto .login .fondo {
+      background-color: #f9f7f7; }
+      .contenedor-contacto .login .fondo h3 {
+        color: #4cd3c2; } }
